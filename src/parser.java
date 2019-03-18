@@ -89,7 +89,7 @@ public class parser {
 //                            }
 //                            hashMap.put(arr[1], list);
                             LinkedList<Node> list = new LinkedList<>();
-                            Node curr = new Node(arr[2],(arr[3]), Double.parseDouble(arr[4]), Double.parseDouble(arr[5]), Double.parseDouble(arr[6]));
+                            Node curr = new Node(arr[2], (arr[3]), Double.parseDouble(arr[4]), Double.parseDouble(arr[5]), Double.parseDouble(arr[6]));
                             list.add(curr);
                             hashMap.put(arr[1], list);
 
@@ -120,5 +120,4 @@ public class parser {
             exception.printStackTrace();
         }
     }
-
 }
