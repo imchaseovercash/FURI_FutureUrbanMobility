@@ -1,7 +1,5 @@
-import javax.xml.soap.Node;
 import java.io.*;
 import java.util.*;
-
 
 public class parser {
     public void parse() {
